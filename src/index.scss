@@ -1,0 +1,22 @@
+@import url(./assets/normalize.css);
+@import url(./assets/fonts/fonts.css);
+
+$font-family: 'Inter', 'Helvetica', sans-serif;
+$font-size: 1rem;
+$font-color: #252525;
+$background: #ffffff;
+
+html {
+  font-size: $font-size;
+  color: $font-color;
+  font-family: $font-family;
+  font-weight: normal;
+  font-style: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility
+}
