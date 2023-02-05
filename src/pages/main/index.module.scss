@@ -1,3 +1,11 @@
-.main {
+@import '../../styles/variables.scss';
 
+.main {
+  max-width: 800px;
+  margin: auto;
+
+  &Title {
+    text-align: center;
+    font-size: $font-size-h1;
+  }
 }

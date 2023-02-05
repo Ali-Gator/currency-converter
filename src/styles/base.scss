@@ -1,12 +1,8 @@
-@import url(./assets/normalize.css);
-@import url(./assets/fonts/fonts.css);
+@import './normalize.css';
+@import './fonts.css';
+@import './variables.scss';
 
-$font-family: 'Inter', 'Helvetica', sans-serif;
-$font-size: 1rem;
-$font-color: #252525;
-$background: #ffffff;
-
-html {
+:root {
   font-size: $font-size;
   color: $font-color;
   font-family: $font-family;
