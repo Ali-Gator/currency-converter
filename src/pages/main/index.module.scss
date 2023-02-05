@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.main {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  align-items: center;
+
+  &Title {
+    font-size: $font-size-h1;
+  }
+}
