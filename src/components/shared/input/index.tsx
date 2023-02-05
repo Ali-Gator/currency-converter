@@ -14,6 +14,7 @@ export const Input: FC<InputProps> = ({ ...props }) => {
     <input type={props.type}
            value={value}
            min={props.min}
+           max={props.max}
            onChange={handleChange} />
   );
 };

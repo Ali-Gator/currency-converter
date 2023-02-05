@@ -5,4 +5,5 @@ export interface InputProps {
   onChange?: (value: string) => void;
   type?: HTMLInputTypeAttribute;
   min?: string;
+  max?: string;
 }

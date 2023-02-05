@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+.currencyList {
+  &Title {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+  }
+
+  &Table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid $primary-color;
+
+    &Head {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      border-bottom: 1px solid $primary-color;
+
+      &Code {
+        width: 30%;
+        border-right: 1px solid $primary-color;
+      }
+    }
+
+    &Body {
+      display: block;
+      width: 100%;
+      max-height: calc(100vh - 400px);
+      overflow: scroll;
+    }
+
+    &Row {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      cursor: pointer;
+      transition: all ease-out .3s;
+
+      :hover {
+        color: $primary-color;
+      }
+
+      &Colored {
+        background-color: aquamarine;
+      }
+    }
+
+    &Data {
+      &Code {
+        width: 30%;
+        border-right: 1px solid $primary-color;
+      }
+    }
+  }
+}

@@ -1,9 +1,8 @@
 import { createRoot } from 'react-dom/client';
-import { Main } from './pages/main';
-import './styles/base.scss';
+import { App } from './App';
 
 const rootNode = document.getElementById('app');
 
 if (rootNode) {
-  createRoot(rootNode).render(<Main />);
+  createRoot(rootNode).render(<App />);
 }

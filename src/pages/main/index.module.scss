@@ -3,9 +3,12 @@
 .main {
   max-width: 800px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  align-items: center;
 
   &Title {
-    text-align: center;
     font-size: $font-size-h1;
   }
 }
